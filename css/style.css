@@ -1,0 +1,304 @@
+body {
+    font-family: "Lato", sans-serif;
+    color: #000000;
+}
+
+body .container {
+    max-width: 1200px;
+}
+
+body .text-yellow {
+    color: #ffc61a;
+}
+
+body .bg-yellow {
+    background: #ffc61a;
+}
+
+body .bg-black {
+    background: #000000;
+}
+
+body h1 {
+    font-size: 72px;
+    font-weight: bold;
+}
+
+body h2 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+body h3 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+body h4 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+body h5 {
+    font-size: 29.5px;
+    font-weight: bold;
+}
+
+body h6 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+body p {
+    font-size: 18px;
+}
+
+body .btn {
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+header {
+    background: url(../img/Header/header-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 740px;
+}
+
+header .navbar {
+    position: fixed !important;
+    z-index: 1000;
+    width: 100%;
+}
+
+.navbar-toggler{
+    padding: 0 !important;
+    margin: 0 !important;
+    height: 28px !important;
+    font-size: 25px !important;
+    line-height: 0 !important;
+}
+
+header .navbar-toggler:focus{
+    outline: none !important;
+}
+
+header #toggleIcon {
+    color: white;
+}
+
+#toggleIcon.toggled {
+    color: #dca406;
+}
+
+header .fa {
+    color: #fff;
+    font-size: 180%;
+}
+
+header .nav-link {
+    color: #fff;
+    font-size: 1.25rem;
+    border-radius: 10px;
+}
+
+header .nav-link:hover {
+    background-color: #ffc61a;
+    color: #000000;
+}
+
+header p {
+    letter-spacing: 12px;
+}
+
+section#home {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+.services-section .right .btn {
+    font-size: 26px;
+}
+
+.services-section input {
+    border: 0;
+    border-bottom: #22222231 solid 2px;
+    border-radius: 0;
+}
+
+.tariff-section .card {
+    border: 0;
+    background-color: #f5f4f2;
+}
+
+.tariff-section .card-img-top {
+    margin-top: -75px;
+}
+
+.tariff-section .card {
+    position: relative;
+}
+
+.tariff-section .card-star {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.skill-section {
+    background-image: url(../img/Header/header-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.testimonial-section {
+    background-image: url(../img/Header/header-bg.webp);
+}
+
+.testimonial-section .card {
+    border-radius: 2.5rem;
+}
+
+.contact-section {
+    background-image: url(../img/Contact/contact-bg.webp);
+}
+
+.contact-section hr {
+    height: 0.3rem;
+}
+
+.contact-section .fa:hover {
+    color: #ffc61a;
+}
+
+@media (max-width: 767px) {
+    body {
+        font-size: 80%;
+    }
+
+    .tariff-section .card {
+        margin-bottom: 5rem;
+    }
+
+    .tariff-section .car-middle {
+        margin-bottom: 5rem;
+    }
+
+    .tariff-section .car-low-middle {
+        background-color: #ffc61a;
+    }
+}
+
+@media (max-width: 552px) {
+    html {
+        font-size: 50%;
+    }
+
+    html h1 {
+        font-size: 45px;
+    }
+
+    html h2 {
+        font-size: 40px;
+    }
+
+    html h3 {
+        font-size: 35px;
+    }
+
+    html h4 {
+        font-size: 30px;
+    }
+
+    html h5 {
+        font-size: 25px;
+    }
+
+    html h6 {
+        font-size: 20px;
+    }
+
+    html p {
+        font-size: 16px;
+    }
+
+    html .fa {
+        font-size: 2rem;
+    }
+
+    html .fa-2x {
+        font-size: 4em;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    header {
+        height: 580px;
+    }
+
+    header p {
+        font-size: 12px;
+        letter-spacing: 4px;
+    }
+
+    header .navbar {
+        padding: 15px 15px;
+    }
+
+    header .header-info {
+        margin-top: 5rem;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    .call-section h3 {
+        font-size: 25px;
+        font-weight: normal;
+    }
+
+    .call-section h1 {
+        font-size: 40px;
+    }
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*  style back to top start */
+/* أسلوب زر العودة إلى الأعلى */
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #ecdd1e;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+#goToTop{
+    color: #16171b;
+}
+
+#backToTopBtn:hover{
+    background-color: #dba506 !important;
+}
+
+#backToTopBtn:hover {
+    background-color: #333;
+    /* لون الخلفية عند التحويم */
+}
+
+/* style back to top end */
